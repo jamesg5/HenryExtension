@@ -5,15 +5,13 @@
 	"url": "https://github.com/hnguye24/HenryExtension",
 	"descriptionmsg": "dummy extension that takes in 3 parameters and outputs a message",
 	"type": "parserhook",
-	/* connects to main execution file */
 	"AutoloadClasses": {
 		"HenryExtension": "HenryExtensionMain.php"
 	},
-	/* connects to MagicWord file */
 	"ExtensionMessagesFiles": {
 		"HenryExtensionMagic": "Magic.php"
 	},
-	"Hooks": { //I don't know what this does yet
+	"Hooks": {
 		"ParserFirstCallInit": [
 			"HenryExtension::onParserSetup"
 		]
