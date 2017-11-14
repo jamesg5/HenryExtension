@@ -1,5 +1,5 @@
 <?php
-class HenryExtention {
+class HenryExtension {
 
 	// Register any render callbacks with the parser
     public static function onParserSetup( &$parser ) {
