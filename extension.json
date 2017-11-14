@@ -3,7 +3,7 @@
 	"author": "hnguye24",
 	"version": "0.0.0",
 	"url": "https://github.com/hnguye24/HenryExtension",
-	"descriptionmsg": "dummy extension that takes in 3 parameters and outputs a message",
+	"descriptionmsg": "henryextension-desc",
 	"type": "parserhook",
 	"AutoloadClasses": {
 		"HenryExtension": "HenryExtensionMain.php"
